@@ -5,7 +5,7 @@ def tao_file_py(prefix="PY01", start=1, end=100, folder="."):
     os.makedirs(folder, exist_ok=True)
 
     for i in range(start, end + 1):
-        filename = os.path.join(folder, f"{prefix}{i:03}.py")
+        filename = os.path.join(folder, f"{prefix}{i:02}.py")
         open(filename, "w").close()
 
 def xoa_file_py(prefix="PY01", start=2, end=100, folder="."):
@@ -16,4 +16,4 @@ def xoa_file_py(prefix="PY01", start=2, end=100, folder="."):
             os.remove(filename)
 
 
-tao_file_py(prefix="PY01", start=1, end=50)
+tao_file_py(prefix="ICPC01", start=3, end=18)
