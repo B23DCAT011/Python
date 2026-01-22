@@ -16,5 +16,5 @@ def xoa_file_py(prefix="PY01", start=2, end=100, folder="."):
             os.remove(filename)
 
 
-tao_file_py(prefix="PY01", start=51, end=76)
+tao_file_py(prefix="PY02", start=0, end=10)
 #xoa_file_py(prefix="PY01", start=51, end=76)
